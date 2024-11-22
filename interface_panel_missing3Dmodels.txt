@@ -1,0 +1,9 @@
+### Missing 3D models - created on 2024-11-22 10:41
+### Printed by checking_3D_models plugin
+Board file: C:/Users/akash/Documents/KiCad/8.0/projects/Interface_panel/interface_panel.kicad_pcb
+3D missing models written to:
+C:\Users\akash\Documents\KiCad\8.0\projects\Interface_panel\interface_panel_missing3Dmodels.txt
+-------
+-------
+NUM of 3D missing models:0
+checked extensions ['.stp', '.step', '.stpZ']
