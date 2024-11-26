@@ -1,4 +1,4 @@
-24196017400743106
+24208137329728165
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65254,7 +65254,28 @@ Coolmax-Logo
 0
 0
 Logo
+Coolmax-logo-20mm
+
+
+0
+0
+0
+Logo
 Innov-0.3thck-1-1
+
+
+0
+0
+0
+Logo
+Innovat-28mm
+
+
+0
+0
+0
+Logo
+high-voltage_silk-6x6mm
 
 
 0
@@ -96691,6 +96712,13 @@ ignition coil autotransformer
 3
 3
 Transformer_THT
+TRANSFORMER_FS24-800-C2
+
+
+0
+8
+8
+Transformer_THT
 Transformer_37x44
 transformer 37x44mm²
 transformer 37x44mm²
@@ -97082,6 +97110,20 @@ voltage transformer ZMPT
 0
 4
 4
+Transformer_THT
+XFMR_F24-250-C2
+
+
+0
+6
+6
+Transformer_THT
+XFMR_F24-500-C2
+
+
+0
+6
+6
 Transistor_Power
 GaN_Systems_GaNPX-3_5x6.6mm_Drain2.93x0.6mm
 GaN Systems GaNPX GS66502B Package, https://gansystems.com/wp-content/uploads/2020/04/GS66502B-DS-Rev-200402.pdf
@@ -97985,6 +98027,13 @@ Varistor VF
 0
 2
 2
+oled0.9in
+MODULE_DM-OLED096-636
+
+
+0
+8
+8
 oled0.9in
 SSD1306-0.91-OLED-4pin-128x32
 
