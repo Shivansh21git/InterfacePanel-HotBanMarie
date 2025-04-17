@@ -2252,7 +2252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oled0.9in:SSD1306-0.91-OLED-4pin-128x32"
+		(property "Footprint" "oled0.9in:MODULE_DM-OLED096-636"
 			(at 72.136 107.696 0)
 			(effects
 				(font
