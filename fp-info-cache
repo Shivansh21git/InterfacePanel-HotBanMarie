@@ -1,4 +1,11 @@
-24319137022473084
+24327877089397561
+3cell-holder
+BAT_BK-18650-PC6
+
+
+0
+6
+6
 74LVC125APW
 IC_74LVC125APW_118
 
@@ -90278,6 +90285,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SPX-3.3V
+SOT95P280X145-5N
+
+
+0
+5
+5
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -98405,6 +98419,20 @@ bms
 0
 6
 6
+custom_footprint
+buck conv
+
+
+0
+4
+2
+custom_footprint
+max31865
+
+
+0
+8
+8
 esp32_devkitV1
 MODULE_ESP32_DEVKIT_V1
 
@@ -98454,6 +98482,13 @@ DIP794W45P254L959H508Q8
 0
 8
 8
+max31865
+SOP65P777X199-20N
+
+
+0
+20
+20
 mc-fuse
 mcfuse
 
