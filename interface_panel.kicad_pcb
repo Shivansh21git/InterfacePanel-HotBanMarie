@@ -9,6 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "Interface Panel")
+		(date "2026-02-11")
+		(rev "Routed")
 		(company "Cool-Max Innovations")
 	)
 	(layers
