@@ -1919,7 +1919,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MCU_Microchip_ATmega:ATmega328P-P"
+		(symbol "MCU_Microchip_ATmega:ATmega328P-A"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1932,7 +1932,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "ATmega328P-P"
+			(property "Value" "ATmega328P-A"
 				(at 2.54 -36.83 0)
 				(effects
 					(font
@@ -1941,7 +1941,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Package_DIP:DIP-28_W7.62mm"
+			(property "Footprint" "Package_QFP:TQFP-32_7x7mm_P0.8mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1960,7 +1960,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, DIP-28"
+			(property "Description" "20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, TQFP-32"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1978,7 +1978,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "DIP*W7.62mm*"
+			(property "ki_fp_filters" "TQFP*7x7mm*P0.8mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1987,7 +1987,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ATmega328P-P_0_1"
+			(symbol "ATmega328P-A_0_1"
 				(rectangle
 					(start -12.7 -35.56)
 					(end 12.7 35.56)
@@ -2000,7 +2000,7 @@
 					)
 				)
 			)
-			(symbol "ATmega328P-P_1_1"
+			(symbol "ATmega328P-A_1_1"
 				(pin passive line
 					(at -15.24 30.48 0)
 					(length 2.54)
@@ -2011,7 +2011,43 @@
 							)
 						)
 					)
-					(number "21"
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 25.4 0)
+					(length 2.54)
+					(name "ADC6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 22.86 0)
+					(length 2.54)
+					(name "ADC7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2029,7 +2065,26 @@
 							)
 						)
 					)
-					(number "7"
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 38.1 270)
+					(length 2.54)
+					(hide yes)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2048,7 +2103,7 @@
 							)
 						)
 					)
-					(number "22"
+					(number "21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2066,7 +2121,26 @@
 							)
 						)
 					)
-					(number "8"
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -38.1 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2084,7 +2158,7 @@
 							)
 						)
 					)
-					(number "20"
+					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2102,7 +2176,7 @@
 							)
 						)
 					)
-					(number "14"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2120,7 +2194,7 @@
 							)
 						)
 					)
-					(number "15"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2138,7 +2212,7 @@
 							)
 						)
 					)
-					(number "16"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2156,7 +2230,7 @@
 							)
 						)
 					)
-					(number "17"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2174,7 +2248,7 @@
 							)
 						)
 					)
-					(number "18"
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2192,7 +2266,7 @@
 							)
 						)
 					)
-					(number "19"
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2210,7 +2284,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2228,7 +2302,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2354,7 +2428,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "29"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2372,7 +2446,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "30"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2390,7 +2464,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "31"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2408,7 +2482,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "32"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2426,7 +2500,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2444,7 +2518,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2462,7 +2536,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2480,7 +2554,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2498,7 +2572,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3794,12 +3868,28 @@
 		(uuid "f683cd40-6a20-4e39-b95d-6ec6539a7d9f")
 	)
 	(no_connect
+		(at 228.6 60.96)
+		(uuid "3d509d4b-d0df-4a16-a694-a34a00af0b6a")
+	)
+	(no_connect
 		(at 170.18 146.05)
 		(uuid "988a07ef-23f5-4610-a1a2-b5e863463f16")
 	)
 	(no_connect
+		(at 228.6 66.04)
+		(uuid "992f2df2-78db-4555-81f5-87815f3893ba")
+	)
+	(no_connect
 		(at 198.12 35.56)
 		(uuid "9fe38a29-dff6-4ac7-9a30-a434efa5241a")
+	)
+	(no_connect
+		(at 228.6 58.42)
+		(uuid "bd768b80-c295-4d45-aa63-3c2dc9495590")
+	)
+	(no_connect
+		(at 228.6 63.5)
+		(uuid "f487377b-5d96-454c-bb3d-538fbb018b3b")
 	)
 	(wire
 		(pts
@@ -4170,6 +4260,16 @@
 			(type default)
 		)
 		(uuid "453ff1d1-5e12-41ee-8da4-d9722f057527")
+	)
+	(wire
+		(pts
+			(xy 228.6 73.66) (xy 254 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "492e2b0d-7da2-4dba-a133-57d5ac6d85ea")
 	)
 	(wire
 		(pts
@@ -4933,16 +5033,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 73.66) (xy 254 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de718710-cb63-47a5-8f2c-c9f28489525d")
-	)
-	(wire
-		(pts
 			(xy 158.75 157.48) (xy 158.75 161.29)
 		)
 		(stroke
@@ -5352,7 +5442,7 @@
 		(uuid "a724e2d2-0aae-4b46-a327-17eda7cdc889")
 	)
 	(label "reset"
-		(at 228.6 73.66 0)
+		(at 229.87 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8587,6 +8677,167 @@
 		)
 	)
 	(symbol
+		(lib_id "MCU_Microchip_ATmega:ATmega328P-A")
+		(at 213.36 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98d66669-bf19-4ec0-b48d-e15137d86d1b")
+		(property "Reference" "U3"
+			(at 215.5033 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ATmega328P-A"
+			(at 215.5033 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_QFP:TQFP-32_7x7mm_P0.8mm"
+			(at 213.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf"
+			(at 213.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, TQFP-32"
+			(at 213.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "26"
+			(uuid "6571f1a5-0fac-4b62-9bb1-da870aaac141")
+		)
+		(pin "14"
+			(uuid "29c3383c-e090-4fa1-8607-578c5f3ed297")
+		)
+		(pin "16"
+			(uuid "19ee6db3-25c1-4cd6-bbc2-7a2c284a184f")
+		)
+		(pin "31"
+			(uuid "8d4c7ffd-9a9d-43e6-84f8-cfac719be589")
+		)
+		(pin "28"
+			(uuid "3dac7974-9fb9-478e-8d3f-ed32ea5088e4")
+		)
+		(pin "1"
+			(uuid "65adad01-6c48-4b03-af89-c1adfd1bd5a1")
+		)
+		(pin "21"
+			(uuid "dbaacc1b-9f3e-494b-9b6e-6be07604a56f")
+		)
+		(pin "32"
+			(uuid "9b310d06-c763-419b-ba73-de0d230605dd")
+		)
+		(pin "3"
+			(uuid "5f626cdf-066f-4fd5-95db-cd5047d6df5b")
+		)
+		(pin "18"
+			(uuid "f23090d3-53e4-4980-abb7-229890506737")
+		)
+		(pin "13"
+			(uuid "311c209f-d0e1-4bb6-ad2e-81f48fe654bb")
+		)
+		(pin "25"
+			(uuid "f62e9005-264c-426a-9d65-6d5fc77ee396")
+		)
+		(pin "20"
+			(uuid "219e49cb-264b-4fc8-aecc-2768276d5480")
+		)
+		(pin "5"
+			(uuid "0b2a3267-8b06-44be-a2ad-44d5da77a3ab")
+		)
+		(pin "23"
+			(uuid "ae4bc57d-2392-447b-8d69-047d6a382bf8")
+		)
+		(pin "15"
+			(uuid "1fcda148-9ed3-43b4-b385-7ee992a66077")
+		)
+		(pin "19"
+			(uuid "e3e09d9f-a8c0-494d-9955-55c6c09457a8")
+		)
+		(pin "8"
+			(uuid "bf5317ef-2276-4e2c-811b-3605efa3adcc")
+		)
+		(pin "4"
+			(uuid "cbe50056-712b-412d-a578-1eb82d3af20f")
+		)
+		(pin "6"
+			(uuid "df6e7b64-ea76-4492-aa7c-d87f801f2e77")
+		)
+		(pin "22"
+			(uuid "aec03113-6c03-458e-bf5d-8a73bb58070c")
+		)
+		(pin "12"
+			(uuid "07bf91f5-eb59-4fd9-a7e5-8687c1b12011")
+		)
+		(pin "17"
+			(uuid "f013e185-3ae2-430a-b508-2820b6881ebe")
+		)
+		(pin "7"
+			(uuid "3f357597-2ce1-4c1e-843b-dd313dc9227a")
+		)
+		(pin "24"
+			(uuid "1c1439eb-29f2-4ed6-a64d-0eec534a1809")
+		)
+		(pin "27"
+			(uuid "9953985b-f1b8-4984-bc59-edba3230ce18")
+		)
+		(pin "29"
+			(uuid "15797ac4-551e-4b97-ab44-7796c75dac10")
+		)
+		(pin "30"
+			(uuid "845c497c-c684-4c4f-b25f-4cead78471fe")
+		)
+		(pin "2"
+			(uuid "a760bef8-85cc-4c2f-aba9-246a179c9c64")
+		)
+		(pin "10"
+			(uuid "f972f3d6-a693-4378-aa4a-3b196ad0e863")
+		)
+		(pin "11"
+			(uuid "66196028-41f8-415e-b5df-265d1efed1d0")
+		)
+		(pin "9"
+			(uuid "b7bb0dc1-459b-4a02-a0c9-6280492ad98b")
+		)
+		(instances
+			(project ""
+				(path "/9f0ac2f5-026e-46a7-84a3-e69ffa4f4cba"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 234.95 93.98 90)
 		(unit 1)
@@ -11084,152 +11335,6 @@
 			(project "interface_panel"
 				(path "/9f0ac2f5-026e-46a7-84a3-e69ffa4f4cba"
 					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MCU_Microchip_ATmega:ATmega328P-P")
-		(at 213.36 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f345974c-8f64-427a-b399-2cc6bfbe419f")
-		(property "Reference" "U2"
-			(at 201.93 28.956 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ATmega328P-P"
-			(at 211.836 40.894 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "atmega328p-smd:QFP80P900X900X120-32N"
-			(at 213.36 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf"
-			(at 213.36 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, DIP-28"
-			(at 213.36 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c837be5a-bf5d-4e47-a3a9-f5b82cdec87d")
-		)
-		(pin "22"
-			(uuid "290e7085-8db3-4178-b9ef-719489621fb1")
-		)
-		(pin "11"
-			(uuid "3d28dcdd-e580-4760-8b47-34418d9f8638")
-		)
-		(pin "26"
-			(uuid "32855f24-6e11-4459-8b85-90b9989a5843")
-		)
-		(pin "19"
-			(uuid "75c4ae33-effb-4e34-a620-c0201ac5b20c")
-		)
-		(pin "9"
-			(uuid "86ab930b-6285-4259-a882-02c8657afc2b")
-		)
-		(pin "15"
-			(uuid "18a9efde-4360-4465-9de8-a0ed4ccbb9a1")
-		)
-		(pin "5"
-			(uuid "8a75192d-bddb-44f0-80c9-6b959a63a397")
-		)
-		(pin "20"
-			(uuid "7c9b0be1-0952-4055-89a7-947f13fb8df4")
-		)
-		(pin "28"
-			(uuid "4612e101-19c9-4a33-b05b-cd3b99162284")
-		)
-		(pin "25"
-			(uuid "12422421-1b91-4944-9951-e7855422cabb")
-		)
-		(pin "6"
-			(uuid "b7518a24-44e3-4d7e-b1d6-98e2680f12bb")
-		)
-		(pin "3"
-			(uuid "81ad98c7-3180-41c5-a9e6-ba7e7680cd84")
-		)
-		(pin "21"
-			(uuid "4cb89ed2-df62-416a-ac51-40d58f0af320")
-		)
-		(pin "8"
-			(uuid "a3221706-b63a-48f0-87aa-cd668cb450e2")
-		)
-		(pin "13"
-			(uuid "e42e106e-2279-40fb-b761-4b097f0bb7e4")
-		)
-		(pin "24"
-			(uuid "c46ec36d-1cbe-4be8-b400-398a85cbfb0c")
-		)
-		(pin "18"
-			(uuid "a89d544a-4af5-40ee-8158-e5d23f3323df")
-		)
-		(pin "17"
-			(uuid "338003ff-fab6-4982-bc7f-25d9285f4c5d")
-		)
-		(pin "2"
-			(uuid "f27203c4-a64b-49b1-979e-a7ac23b608fa")
-		)
-		(pin "27"
-			(uuid "c637ecee-97a4-40af-b1c6-5bee32dcfc86")
-		)
-		(pin "12"
-			(uuid "5c4e9a2a-1211-4411-bf32-fc75aee23894")
-		)
-		(pin "10"
-			(uuid "f973fc03-28ff-401b-8e72-ba7ea4ebeaea")
-		)
-		(pin "14"
-			(uuid "5145cdfe-bfac-4793-b13c-ee5cd48ad08c")
-		)
-		(pin "7"
-			(uuid "967c827c-7c5a-42bf-b9e4-2a2066686ded")
-		)
-		(pin "16"
-			(uuid "a13350f7-6a6a-4431-81f4-d54533af8b58")
-		)
-		(pin "4"
-			(uuid "cf496de6-8bd0-4bdd-b83d-7a24d4c2a951")
-		)
-		(pin "23"
-			(uuid "e1f6290c-c6a4-4c41-8523-3d18c8d3e038")
-		)
-		(instances
-			(project "interface_panel"
-				(path "/9f0ac2f5-026e-46a7-84a3-e69ffa4f4cba"
-					(reference "U2")
 					(unit 1)
 				)
 			)
