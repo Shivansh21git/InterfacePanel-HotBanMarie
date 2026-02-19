@@ -1919,7 +1919,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MCU_Microchip_ATmega:ATmega328P-A"
+		(symbol "MCU_Microchip_ATmega:ATmega328P-P"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1932,7 +1932,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "ATmega328P-A"
+			(property "Value" "ATmega328P-P"
 				(at 2.54 -36.83 0)
 				(effects
 					(font
@@ -1941,7 +1941,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Package_QFP:TQFP-32_7x7mm_P0.8mm"
+			(property "Footprint" "Package_DIP:DIP-28_W7.62mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1960,7 +1960,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, TQFP-32"
+			(property "Description" "20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, DIP-28"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1978,7 +1978,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TQFP*7x7mm*P0.8mm*"
+			(property "ki_fp_filters" "DIP*W7.62mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1987,7 +1987,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ATmega328P-A_0_1"
+			(symbol "ATmega328P-P_0_1"
 				(rectangle
 					(start -12.7 -35.56)
 					(end 12.7 35.56)
@@ -2000,103 +2000,11 @@
 					)
 				)
 			)
-			(symbol "ATmega328P-A_1_1"
+			(symbol "ATmega328P-P_1_1"
 				(pin passive line
 					(at -15.24 30.48 0)
 					(length 2.54)
 					(name "AREF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 25.4 0)
-					(length 2.54)
-					(name "ADC6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 22.86 0)
-					(length 2.54)
-					(name "ADC7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 38.1 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 38.1 270)
-					(length 2.54)
-					(hide yes)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -38.1 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2112,16 +2020,16 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -38.1 90)
+					(at 0 38.1 270)
 					(length 2.54)
-					(name "GND"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2140,7 +2048,25 @@
 							)
 						)
 					)
-					(number "5"
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -38.1 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2158,7 +2084,7 @@
 							)
 						)
 					)
-					(number "18"
+					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2176,7 +2102,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2194,7 +2120,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2212,7 +2138,7 @@
 							)
 						)
 					)
-					(number "14"
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2230,7 +2156,7 @@
 							)
 						)
 					)
-					(number "15"
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2248,7 +2174,7 @@
 							)
 						)
 					)
-					(number "16"
+					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2266,7 +2192,7 @@
 							)
 						)
 					)
-					(number "17"
+					(number "19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2284,7 +2210,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2302,7 +2228,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2428,7 +2354,7 @@
 							)
 						)
 					)
-					(number "29"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2446,7 +2372,7 @@
 							)
 						)
 					)
-					(number "30"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2464,7 +2390,7 @@
 							)
 						)
 					)
-					(number "31"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2482,7 +2408,7 @@
 							)
 						)
 					)
-					(number "32"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2500,7 +2426,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2518,7 +2444,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2536,7 +2462,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2554,7 +2480,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2572,7 +2498,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6799,6 +6725,153 @@
 		)
 	)
 	(symbol
+		(lib_id "MCU_Microchip_ATmega:ATmega328P-P")
+		(at 213.36 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e8bfe0e-51c2-467f-a3e6-2f8733cd0e89")
+		(property "Reference" "U2"
+			(at 191.77 29.1398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ATmega328P-P"
+			(at 191.77 31.6798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-28_W7.62mm"
+			(at 213.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf"
+			(at 213.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, DIP-28"
+			(at 213.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "21"
+			(uuid "96ca0a2e-13db-4807-8199-47d074c97d3c")
+		)
+		(pin "7"
+			(uuid "965d8877-4363-4b68-918f-d4b25739c407")
+		)
+		(pin "6"
+			(uuid "912b2944-af5f-473c-a6fd-135876f72b1c")
+		)
+		(pin "12"
+			(uuid "e6316d24-262e-434e-8d15-52a20251c7c4")
+		)
+		(pin "17"
+			(uuid "b204bccd-199e-4d4c-b9f4-6e90d745b36f")
+		)
+		(pin "28"
+			(uuid "de71e6ce-18b1-432e-8632-f8f68a75e582")
+		)
+		(pin "18"
+			(uuid "d59a08d8-e5e4-4dde-8510-5e396b052421")
+		)
+		(pin "19"
+			(uuid "63af12e2-3c1e-4ba7-84f5-d83c1c548d94")
+		)
+		(pin "20"
+			(uuid "a8c944e0-fa67-42bb-a224-a8daf99f0185")
+		)
+		(pin "26"
+			(uuid "2dc1140c-c818-40aa-bf35-208b4e7414b7")
+		)
+		(pin "3"
+			(uuid "481d20bc-6403-4d73-aaec-b28f17ffbf35")
+		)
+		(pin "13"
+			(uuid "7c67c10c-1fe4-41c1-aa6e-f04feabd354d")
+		)
+		(pin "2"
+			(uuid "50fa85a4-f45a-4753-8870-c1ea74d9c02c")
+		)
+		(pin "22"
+			(uuid "adac6106-a88b-4ebd-9ce5-2cb99287a525")
+		)
+		(pin "9"
+			(uuid "0c11673b-dcc5-4cc8-afad-c62da1594783")
+		)
+		(pin "23"
+			(uuid "f242e648-75cd-4ff6-b8ca-ac94e9a4e3e5")
+		)
+		(pin "24"
+			(uuid "5b6a6725-11e5-47c2-aa5d-23e0f77cbf00")
+		)
+		(pin "1"
+			(uuid "2356a354-fcac-4f90-824e-021078e45d46")
+		)
+		(pin "8"
+			(uuid "902dc215-9530-4eb0-bc7d-ca661767b64f")
+		)
+		(pin "5"
+			(uuid "cf492f67-837d-42a0-9170-697f1adf3a9b")
+		)
+		(pin "15"
+			(uuid "5ccdfd01-5406-44e9-8eee-e1f9e7f4a04f")
+		)
+		(pin "14"
+			(uuid "38a8dbec-a080-49e3-b892-1c476ed704d8")
+		)
+		(pin "16"
+			(uuid "0fda9c42-e27c-471b-8999-f8a8f4dd6756")
+		)
+		(pin "10"
+			(uuid "d287188d-5545-4708-a2e3-eb6b1437df44")
+		)
+		(pin "25"
+			(uuid "7c41809a-5fb2-436a-b7d4-ce930b15b843")
+		)
+		(pin "27"
+			(uuid "b6955748-51a1-4b86-852f-7c46399c9b42")
+		)
+		(pin "4"
+			(uuid "5ba04e83-d8dd-417b-b8d2-4d0f304cc54a")
+		)
+		(pin "11"
+			(uuid "8d5a17b4-22ea-4241-b881-6ac5345d15a0")
+		)
+		(instances
+			(project ""
+				(path "/9f0ac2f5-026e-46a7-84a3-e69ffa4f4cba"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 213.36 107.95 0)
 		(unit 1)
@@ -7833,7 +7906,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 248.92 48.5648 0)
 			(effects
 				(font
@@ -8677,167 +8750,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MCU_Microchip_ATmega:ATmega328P-A")
-		(at 213.36 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98d66669-bf19-4ec0-b48d-e15137d86d1b")
-		(property "Reference" "U3"
-			(at 215.5033 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ATmega328P-A"
-			(at 215.5033 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_QFP:TQFP-32_7x7mm_P0.8mm"
-			(at 213.36 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf"
-			(at 213.36 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, TQFP-32"
-			(at 213.36 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "26"
-			(uuid "6571f1a5-0fac-4b62-9bb1-da870aaac141")
-		)
-		(pin "14"
-			(uuid "29c3383c-e090-4fa1-8607-578c5f3ed297")
-		)
-		(pin "16"
-			(uuid "19ee6db3-25c1-4cd6-bbc2-7a2c284a184f")
-		)
-		(pin "31"
-			(uuid "8d4c7ffd-9a9d-43e6-84f8-cfac719be589")
-		)
-		(pin "28"
-			(uuid "3dac7974-9fb9-478e-8d3f-ed32ea5088e4")
-		)
-		(pin "1"
-			(uuid "65adad01-6c48-4b03-af89-c1adfd1bd5a1")
-		)
-		(pin "21"
-			(uuid "dbaacc1b-9f3e-494b-9b6e-6be07604a56f")
-		)
-		(pin "32"
-			(uuid "9b310d06-c763-419b-ba73-de0d230605dd")
-		)
-		(pin "3"
-			(uuid "5f626cdf-066f-4fd5-95db-cd5047d6df5b")
-		)
-		(pin "18"
-			(uuid "f23090d3-53e4-4980-abb7-229890506737")
-		)
-		(pin "13"
-			(uuid "311c209f-d0e1-4bb6-ad2e-81f48fe654bb")
-		)
-		(pin "25"
-			(uuid "f62e9005-264c-426a-9d65-6d5fc77ee396")
-		)
-		(pin "20"
-			(uuid "219e49cb-264b-4fc8-aecc-2768276d5480")
-		)
-		(pin "5"
-			(uuid "0b2a3267-8b06-44be-a2ad-44d5da77a3ab")
-		)
-		(pin "23"
-			(uuid "ae4bc57d-2392-447b-8d69-047d6a382bf8")
-		)
-		(pin "15"
-			(uuid "1fcda148-9ed3-43b4-b385-7ee992a66077")
-		)
-		(pin "19"
-			(uuid "e3e09d9f-a8c0-494d-9955-55c6c09457a8")
-		)
-		(pin "8"
-			(uuid "bf5317ef-2276-4e2c-811b-3605efa3adcc")
-		)
-		(pin "4"
-			(uuid "cbe50056-712b-412d-a578-1eb82d3af20f")
-		)
-		(pin "6"
-			(uuid "df6e7b64-ea76-4492-aa7c-d87f801f2e77")
-		)
-		(pin "22"
-			(uuid "aec03113-6c03-458e-bf5d-8a73bb58070c")
-		)
-		(pin "12"
-			(uuid "07bf91f5-eb59-4fd9-a7e5-8687c1b12011")
-		)
-		(pin "17"
-			(uuid "f013e185-3ae2-430a-b508-2820b6881ebe")
-		)
-		(pin "7"
-			(uuid "3f357597-2ce1-4c1e-843b-dd313dc9227a")
-		)
-		(pin "24"
-			(uuid "1c1439eb-29f2-4ed6-a64d-0eec534a1809")
-		)
-		(pin "27"
-			(uuid "9953985b-f1b8-4984-bc59-edba3230ce18")
-		)
-		(pin "29"
-			(uuid "15797ac4-551e-4b97-ab44-7796c75dac10")
-		)
-		(pin "30"
-			(uuid "845c497c-c684-4c4f-b25f-4cead78471fe")
-		)
-		(pin "2"
-			(uuid "a760bef8-85cc-4c2f-aba9-246a179c9c64")
-		)
-		(pin "10"
-			(uuid "f972f3d6-a693-4378-aa4a-3b196ad0e863")
-		)
-		(pin "11"
-			(uuid "66196028-41f8-415e-b5df-265d1efed1d0")
-		)
-		(pin "9"
-			(uuid "b7bb0dc1-459b-4a02-a0c9-6280492ad98b")
-		)
-		(instances
-			(project ""
-				(path "/9f0ac2f5-026e-46a7-84a3-e69ffa4f4cba"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 234.95 93.98 90)
 		(unit 1)
@@ -9507,7 +9419,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_HC49-SD"
+		(property "Footprint" "Crystal:Crystal_HC49-U_Vertical"
 			(at 237.49 53.34 0)
 			(effects
 				(font
@@ -10769,7 +10681,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 248.92 56.1848 0)
 			(effects
 				(font
